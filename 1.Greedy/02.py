@@ -15,5 +15,5 @@ def bigNum(N, M, K, L):
   else:
     for i in range(M):
       result.append(max_val)
-  return result
+  return sum(result)
 print(bigNum(N, M, K, L))
