@@ -11,7 +11,7 @@ def bigNum(N, M, K, L):
     next_max_val = L[L.index(max(L))]
     result.append(next_max_val)
     L.insert(max_index, max_val)
-    result.extend(bigNum(N, M, K, L))
+    result.append(bigNum(N, M, K, L))
   else:
     for i in range(M):
       result.append(max_val)
