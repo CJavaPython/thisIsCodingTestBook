@@ -1,5 +1,5 @@
 #queue example
-
+#faster than list 
 from collections import deque
 
 queue = deque()
